@@ -5,6 +5,167 @@
 	(uuid "53fc10da-4791-471f-a9ac-5eadf28e4e6f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Auxiliary_Items:MountingScrew"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingScrew"
+				(at 0 -3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting screw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting screw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Screw?Generic*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingScrew_0_1"
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0.635) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -0.635) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 0.635 1.27) (xy 1.27 1.27) (xy 1.27 2.54) (xy 0.254 2.54) (xy 0.254 1.905)
+						(xy -0.254 1.905) (xy -0.254 2.54) (xy -1.27 2.54) (xy -1.27 1.27) (xy -0.635 1.27) (xy -0.635 -1.27)
+						(xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D"
 			(pin_numbers
 				(hide yes)
@@ -2705,7 +2866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "krafters_lib_fp:R0603"
 			(at 70.612 64.77 90)
 			(hide yes)
 			(show_name no)
@@ -2756,9 +2917,85 @@
 			(uuid "556f77c7-6578-481b-a731-5454a73155b3")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 157.48 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "082f365c-1e2e-42fc-9ace-1e2154a36b0c")
+		(property "Reference" "H1"
+			(at 157.48 55.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 157.48 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 157.48 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "cam_relay_device"
+				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2795,7 +3032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "krafters_lib_fp:R0603"
 			(at 74.168 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -2846,9 +3083,85 @@
 			(uuid "42c8ea30-83a4-40d2-af85-eedfb2b5e95c")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 171.45 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5a1d54-081f-47f6-80d3-3eed83398ae4")
+		(property "Reference" "H3"
+			(at 171.45 55.626 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 171.45 63.246 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 171.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 171.45 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "cam_relay_device"
+				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2885,7 +3198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "krafters_lib_fp:R0603"
 			(at 70.612 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -2936,7 +3249,7 @@
 			(uuid "97ddc765-a2c6-4cb9-8b18-537f2b78567a")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "R2")
 					(unit 1)
@@ -3057,7 +3370,7 @@
 			(uuid "5b38ecc5-2886-4a4a-97fc-316623d519cf")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "Q1")
 					(unit 1)
@@ -3096,7 +3409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "krafters_lib_fp:R0603"
 			(at 84.582 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -3147,7 +3460,7 @@
 			(uuid "7e34e6a7-ceaf-463b-b35e-11e033fc19d0")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "R5")
 					(unit 1)
@@ -3224,7 +3537,7 @@
 			(uuid "697947cd-03d0-4df1-b789-0630abd5867a")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR02")
 					(unit 1)
@@ -3318,7 +3631,7 @@
 			(uuid "767f0fc3-413d-46fe-8048-82a6be819a0b")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "U5")
 					(unit 1)
@@ -3397,7 +3710,7 @@
 			(uuid "961d0f6c-dd0b-4304-96bd-9f784684c0b8")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR018")
 					(unit 1)
@@ -3479,7 +3792,7 @@
 			(uuid "b2cc24eb-034d-401a-8d33-1a766638cba3")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "D2")
 					(unit 1)
@@ -3559,7 +3872,7 @@
 			(uuid "73eed3d1-ff5e-42ee-bb2f-8302a7cfa63d")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "D3")
 					(unit 1)
@@ -3637,9 +3950,85 @@
 			(uuid "8518aa4f-81b9-4094-bc5e-85b24652ffe4")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Auxiliary_Items:MountingScrew")
+		(at 163.83 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97ba16f7-8955-4587-8f84-0570a65a8dd6")
+		(property "Reference" "H2"
+			(at 163.83 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingScrew"
+			(at 163.83 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 163.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting screw"
+			(at 163.83 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "cam_relay_device"
+				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3716,7 +4105,7 @@
 			(uuid "68fa6fc8-2f17-4ab4-a758-db8ef8a2a9a7")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR01")
 					(unit 1)
@@ -3793,7 +4182,7 @@
 			(uuid "f9c79c37-9201-48d8-a23d-0bd69c569c33")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR012")
 					(unit 1)
@@ -3833,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "krafters-lib:esp32-s3-cam-devkit"
+		(property "Footprint" "krafters_lib_fp:esp32-s3-cam-devkit"
 			(at 110.49 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3987,7 +4376,7 @@
 			(uuid "05f68540-8b2a-4d91-8d3e-0f38f9610bf3")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "U1")
 					(unit 1)
@@ -4028,7 +4417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krafters-lib:SOD-123FL_L2.8-W1.8-LS3.7-RD"
+		(property "Footprint" "krafters_lib_fp:SOD-123FL_L2.8-W1.8-LS3.7-RD"
 			(at 80.01 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4101,7 +4490,7 @@
 			(uuid "ab2f490b-7b8b-4270-a040-c4233cd8d743")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "D1")
 					(unit 1)
@@ -4179,7 +4568,7 @@
 			(uuid "93eb7709-e868-4607-a419-a4c5751bce39")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR017")
 					(unit 1)
@@ -4256,7 +4645,7 @@
 			(uuid "d266efe6-fd72-471b-baa3-91e32f31c64a")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "#PWR03")
 					(unit 1)
@@ -4295,7 +4684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "krafters_lib_fp:R0603"
 			(at 67.31 112.522 90)
 			(hide yes)
 			(show_name no)
@@ -4346,7 +4735,7 @@
 			(uuid "1b9238d9-d641-44e2-a194-9540aa947f0e")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "R1")
 					(unit 1)
@@ -4387,7 +4776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "krafters-lib:RELAY-TH_SRD-XXVDC-XL-C"
+		(property "Footprint" "krafters_lib_fp:RELAY-TH_SRD-XXVDC-XL-C"
 			(at 60.96 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4449,7 +4838,7 @@
 			(uuid "76119115-2375-4c05-9253-38fd369000be")
 		)
 		(instances
-			(project "treeleafRelay"
+			(project "cam_relay_device"
 				(path "/53fc10da-4791-471f-a9ac-5eadf28e4e6f"
 					(reference "K1")
 					(unit 1)
